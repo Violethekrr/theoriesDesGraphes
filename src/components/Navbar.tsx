@@ -1,4 +1,4 @@
-import { Sun, Moon, Hamburger } from "lucide-react";
+import { Sun, Moon, Menu } from "lucide-react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useTheme } from "../Context/ThemeContext";
@@ -61,7 +61,7 @@ export default function Navbar() {
         onClick={() => setButton(!button)}
         className={`z-20 sm:hidden ${!isDark ? "text-[#0F172B]" : "text-[#6D63F2]"}`}
       >
-        <Hamburger className="w-8 h-8" />
+        <Menu className="w-8 h-8" />
       </div>
 
       {button && (
@@ -80,7 +80,9 @@ export default function Navbar() {
           <Link to="/typologies" className={linkClass("/typologies")}>Typologies</Link>
           <Link to="/proprietes" className={linkClass("/proprietes")}>Propriétés</Link>
           <Link to="/theoremes" className={linkClass("/theoremes")}>Théorème</Link>
-          <Link to="/algorithmique" className={linkClass("/algorithmique")}>Algorithmique</Link>
+           <Link to="/algorithmique" className={linkClass("/algorithmique")}>Algorithmique</Link>
+          <Link to="/applications" className={linkClass("/applications")}>Applications</Link>
+          <Link to="/Interaction" className={linkClass("/Interaction")}>Interaction</Link>
 
           <button
             onClick={toggleTheme}
