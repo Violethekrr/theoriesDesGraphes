@@ -463,13 +463,13 @@ export default function Interactive() {
        
 
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center gap-3 mt-10">
             <div className={`p-3 rounded-xl ${isDark ? 'bg-purple-500/20' : 'bg-teal-100'}`}>
               <Sparkles className={isDark ? 'text-purple-300' : 'text-teal-700'} size={28} />
             </div>
             <div>
             
-              <h1 className={`text-5xl font-bold ${isDark ? 'text-white' : 'text-slate-900'}`}>
+              <h1 className={`text-2xl md:text-3xl xl:text-4xl font-bold ${isDark ? 'text-white' : 'text-slate-900'}`}>
                 Graphes Interactifs
               </h1>
             </div>

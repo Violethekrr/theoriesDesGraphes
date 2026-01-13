@@ -43,7 +43,7 @@ export default function Layout({ children } : Pros) {
       </div>
       
         
-        <main className={`pt-20 sm:pt-50 ${isDark? 'text-white ' : 'text-[#0F172B]  bg-linear-to-br from-[#F8F8FA]   '}`}>{children}</main>
+        <main className={`pt-20 sm:pt-50 overflow-x-hidden ${isDark? 'text-white ' : 'text-[#0F172B]  bg-linear-to-br from-[#F8F8FA]   '}`}>{children}</main>
   
     </div>
   )

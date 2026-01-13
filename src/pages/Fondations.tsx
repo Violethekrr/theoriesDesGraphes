@@ -52,9 +52,9 @@ export default function FondationsPage() {
        
 
         {/* Title Section */}
-        <div className="max-w-6xl mx-auto mb-12">
+        <div className="max-w-6xl mx-auto mt-12">
          
-          <h1 className={`text-4xl font-bold mb-6 ${
+          <h1 className={`text-2xl md:text-3xl xl:text-4xl font-bold mb-6 ${
             isDark ? 'text-white' : 'text-slate-900'
           }`}>
             Fondations Théoriques

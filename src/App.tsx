@@ -11,7 +11,7 @@ import Applications from "./pages/Applications";
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router >
       <Layout>
         <Routes>
           <Route path="/" element={<Accueil />} />

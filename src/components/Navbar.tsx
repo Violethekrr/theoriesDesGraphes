@@ -43,7 +43,7 @@ export default function Navbar() {
           <Link to="/" className={linkClass("/")}>Accueil</Link>
           <Link to="/fondations" className={linkClass("/fondations")}>Fondations</Link>
           <Link to="/typologies" className={linkClass("/typologies")}>Typologies</Link>
-          <Link to="/proprietes " className={linkClass("/proprietes")}>Propriétés et Théorèmes</Link>
+          <Link to="/proprietes" className={linkClass("/proprietes")}>Propriétés et Théorèmes</Link>
           <Link to="/algorithmique" className={linkClass("/algorithmique")}>Algorithmique</Link>
           <Link to="/applications" className={linkClass("/applications")}>Applications</Link>
           <Link to="/Interaction" className={linkClass("/Interaction")}>Interaction</Link>
@@ -78,8 +78,7 @@ export default function Navbar() {
           <Link to="/" className={linkClass("/")}>Accueil</Link>
           <Link to="/fondations" className={linkClass("/fondations")}>Fondations</Link>
           <Link to="/typologies" className={linkClass("/typologies")}>Typologies</Link>
-          <Link to="/proprietes" className={linkClass("/proprietes")}>Propriétés</Link>
-          <Link to="/theoremes" className={linkClass("/theoremes")}>Théorème</Link>
+          <Link to="/proprietes" className={linkClass("/proprietes")}>Propriétés et Théorèmes</Link>
            <Link to="/algorithmique" className={linkClass("/algorithmique")}>Algorithmique</Link>
           <Link to="/applications" className={linkClass("/applications")}>Applications</Link>
           <Link to="/Interaction" className={linkClass("/Interaction")}>Interaction</Link>

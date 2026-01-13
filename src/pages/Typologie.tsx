@@ -28,9 +28,9 @@ export default function Typologie() {
       <div className="relative container mx-auto px-6 py-15">
       
 
-        <div className="max-w-6xl mx-auto mb-12">
+        <div className="max-w-6xl mx-auto mt-12">
           
-          <h1 className={`text-4xl font-bold mb-6 ${isDark ? 'text-white' : 'text-slate-900'}`}>
+          <h1 className={`text-2xl md:text-3xl xl:text-4xl font-bold mb-6 ${isDark ? 'text-white' : 'text-slate-900'}`}>
             Typologie & Structures
           </h1>
           <p className={`text-xl ${isDark ? 'text-slate-300' : 'text-slate-700'}`}>
