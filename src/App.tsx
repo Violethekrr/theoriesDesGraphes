@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Layout from "./components/layout";
+import Layout from "./components/Layout";
 import Accueil from "./pages/Accueil";
 import Algorithmique from "./pages/Algorithmique";
 import Fondations from "./pages/Fondations";
