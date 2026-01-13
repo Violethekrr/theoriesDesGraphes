@@ -71,8 +71,8 @@ export default function Navbar() {
           transition={{ duration: 1.5 }}
           className={`z-40 absolute flex flex-col sm:hidden gap-3 p-5 font-medium ${
             !isDark
-              ? "bg-linear-to-r from-[#6D63F2]/50 to-[#835EF5]/50 text-[#0F172B]"
-              : "bg-linear-to-r from-[#0F172B]/50 to-[#835EF5]/50 text-white"
+              ? "bg-white text-[#0F172B]"
+              : "bg-[#0F172B] text-white"
           }`}
         >
           <Link to="/" className={linkClass("/")}>Accueil</Link>
