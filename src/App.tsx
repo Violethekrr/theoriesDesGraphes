@@ -8,10 +8,12 @@ import Typologie from "./pages/Typologie";
 import Proprietes from "./pages/Proprietes";
 import Interactive from "./pages/Interactive";
 import Applications from "./pages/Applications";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App: React.FC = () => {
   return (
     <Router >
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Accueil />} />
